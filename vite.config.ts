@@ -5,10 +5,10 @@ import vue from "@vitejs/plugin-vue";
 import tailwind from "tailwindcss";
 import autoprefixer from "autoprefixer";
 
-const repoName = process.env.GITHUB_REPOSITORY?.split('/')[1] || 'pholi-landing'
+// const repoName = process.env.GITHUB_REPOSITORY?.split('/')[1] || 'pholi-landing'
 
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? `/${repoName}/` : '/',
+  base: '/',
   css: {
     postcss: {
       plugins: [tailwind(), autoprefixer()],

@@ -77,7 +77,7 @@ import {
         class="bg-linear-to-b absolute inset-0 z-10 from-transparent from-35% to-white dark:to-neutral-950 animate-none">
       </div>
       <div class="mx-auto px-4 relative max-w-2xl overflow-hidden">
-        <img alt="Dashboard mock‑up" width="2796" height="2008" src="../styled pholi.png" style="color: transparent;"
+        <img alt="Dashboard mock‑up" width="2796" height="2008" src="../public/pholi-mockup.png" style="color: transparent;"
           class="relative z-0 border border-black/10 dark:hidden animate-none rounded-2xl" />
       </div>
     </div>

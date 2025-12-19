@@ -1,27 +1,14 @@
 <script setup lang="ts">
-  import Header from './components/Header.vue'
-  import Hero from './components/Hero.vue'
-  import NotifSignup from './components/NotifSignup.vue';
-  import Footer from './components/Footer.vue';
+import Header from './components/Header.vue'
+import Hero from './components/Hero.vue'
+import NotifSignup from './components/NotifSignup.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <!-- test -->
 
 <template>
-  <div id="pholi"
-    class="bg-white text-gray-800 dark:bg-neutral-950 relative isolate min-h-screen antialiased dark:text-neutral-100">
-    <div class="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
-      <div
-        class="h-[60vh] w-[60vh] rounded-full bg-gradient-to-br absolute -top-32 -left-32 from-indigo-200 via-sky-200 to-purple-300 opacity-100 blur-2xl dark:opacity-0">
-      </div>
-      <div
-        class="h-[40vh] w-[50vh] rounded-full bg-gradient-to-tr absolute -bottom-20 right-10 from-indigo-200 via-sky-200 to-purple-300 opacity-100 blur-3xl dark:opacity-0">
-      </div>
-      <div
-        class="h-[35vh] w-[45vh] rounded-full bg-gradient-to-b dark:h-[28vh] absolute top-28 left-1/4 from-indigo-200 via-sky-200 to-purple-300 opacity-100 blur-3xl dark:opacity-0">
-      </div>
-    </div>
-
+  <div class="p-4 pr-0 mr-3 bg-gradient-to-br from-purple-500 to-indigo-500 hover:text-white text-xl">
     <Header />
     <Hero />
     <NotifSignup />

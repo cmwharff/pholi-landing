@@ -11,6 +11,8 @@ import {
 
 </script>
 
+<!-- test -->
+
 <template>
   <div id="pholi"
     class="bg-white text-gray-800 dark:bg-neutral-950 relative isolate min-h-screen antialiased dark:text-neutral-100">

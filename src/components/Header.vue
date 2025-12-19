@@ -35,20 +35,20 @@
                         <label for="contact-name"
                             class="text-sm font-medium text-gray-700 dark:text-gray-200">Name:</label>
                         <input id="contact-name" type="text" required placeholder="Your name" name="name"
-                            class="w-full rounded-md border border-zinc-300/70 bg-white/70 px-4 py-2 placeholder-gray-500 dark:border-white/20 dark:bg-white/10 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-neutral-800" />
+                            class="w-full rounded-md border border-zinc-300/70 bg-white/70 px-4 py-2 placeholder-gray-500 dark:border-white/20 dark:bg-white/10 dark:placeholder-gray-400 focus:outline-hidden focus:ring-2 focus:ring-neutral-800" />
                     </div>
                     <div class="flex flex-col gap-1">
                         <label for="contact-email"
                             class="text-sm font-medium text-gray-700 dark:text-gray-200">Email:</label>
                         <input id="contact-email" type="email" required placeholder="you@example.com" name="email"
-                            class="w-full rounded-md border border-zinc-300/70 bg-white/70 px-4 py-2 placeholder-gray-500 dark:border-white/20 dark:bg-white/10 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-neutral-800" />
+                            class="w-full rounded-md border border-zinc-300/70 bg-white/70 px-4 py-2 placeholder-gray-500 dark:border-white/20 dark:bg-white/10 dark:placeholder-gray-400 focus:outline-hidden focus:ring-2 focus:ring-neutral-800" />
                     </div>
 
                     <div class="flex flex-col gap-1">
                         <label for="contact-message"
                             class="text-sm font-medium text-gray-700 dark:text-gray-200">Message:</label>
                         <textarea id="contact-message" placeholder="Your message" required rows="4" name="message"
-                            class="w-full rounded-md border border-zinc-300/70 bg-white/70 px-4 py-2 placeholder-gray-500 dark:border-white/20 dark:bg-white/10 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-neutral-800 resize-none"></textarea>
+                            class="w-full rounded-md border border-zinc-300/70 bg-white/70 px-4 py-2 placeholder-gray-500 dark:border-white/20 dark:bg-white/10 dark:placeholder-gray-400 focus:outline-hidden focus:ring-2 focus:ring-neutral-800 resize-none"></textarea>
                     </div>
 
                     <button type="submit"

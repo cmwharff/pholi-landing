@@ -8,7 +8,7 @@ import Footer from './components/Footer.vue';
 <!-- test -->
 
 <template>
-  <div class="p-4 pr-0 mr-3 bg-gradient-to-br from-purple-500 to-indigo-500 hover:text-white text-xl">
+  <div class="p-4 pr-0 mr-3 bg-linear-to-br from-purple-500 to-indigo-500 hover:text-white text-xl">
     <Header />
     <Hero />
     <NotifSignup />

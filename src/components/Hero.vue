@@ -1,5 +1,5 @@
 <template>
-    <div class="mt-8 relative z-0 flex flex-col max-w-2xl align-middle m-auto text-center ">
+    <div class="mt-8 relative z-0 flex flex-col max-w-[50vw] align-middle m-auto text-center ">
         <img alt="Dashboard mock‑up" src="/pholi-demo.png" style="color: transparent;"
             class="mb-4 relative z-0 border border-black/10 dark:hidden animate-none rounded-2xl" />
 

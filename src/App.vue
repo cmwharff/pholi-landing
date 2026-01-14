@@ -8,10 +8,11 @@ import Footer from './components/Footer.vue';
 <!-- test -->
 
 <template>
-  <div class="p-4 pr-0 mr-3 bg-linear-to-br from-purple-500 to-indigo-500 hover:text-white text-xl">
+  <div id="container" class="p-4 pr-0 mr-3 text-xl dark:bg-neutral-950 dark:text-neutral-100 bg-sky-50">
     <Header />
     <Hero />
     <NotifSignup />
     <Footer />
+
   </div>
 </template>
